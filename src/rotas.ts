@@ -16,6 +16,7 @@ rotas.delete('/autores/:id', autorControlador.excluir)
 rotas.get('/postagens', postcontrolador.listar)
 rotas.get('/postagens/:id', postcontrolador.detalhar)
 rotas.post('/postagens', postcontrolador.cadastrar)
+rotas.patch('/postagens/:id', postcontrolador.editar)
 
 
 
