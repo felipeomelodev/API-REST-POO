@@ -14,6 +14,9 @@ rotas.put('/autores/:id', autorControlador.editar)
 rotas.delete('/autores/:id', autorControlador.excluir)
 
 rotas.get('/postagens', postcontrolador.listar)
+rotas.get('/postagens/:id', postcontrolador.detalhar)
+rotas.post('/postagens', postcontrolador.cadastrar)
+
 
 
 export default rotas
